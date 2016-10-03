@@ -91,11 +91,11 @@ export default {
       if (_self.noteEditing) {
         // For IE and Firefox prior to version 4
         if (e) {
-          e.returnValue = _self.noteEditing + '确定退出吗？ss'
+          e.returnValue = _self.noteEditing + '确定退出吗?'
         }
 
         // For Safari
-        return _self.noteEditing + '确定退出吗？ss'
+        return _self.noteEditing + '确定退出吗?'
       }
     }
   },
